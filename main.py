@@ -293,7 +293,8 @@ def grid_search_BLOND_unet(epochs=100, target_appliances=None, **hparams):
     Returns:
         void
     """
-    dataset = 'BLOND'
+    #dataset = 'BLOND'
+    dataset = 'UKDALE'
     num_layers = hparams['num_layers']
     slide_size = hparams['slide_size']
     lr = hparams['lr']
