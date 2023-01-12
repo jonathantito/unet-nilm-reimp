@@ -46,6 +46,8 @@ class BLOND(Dataset):
 
             means[i] = np.load(appliance_path)['mean']
             stds[i] = np.load(appliance_path)['std']
+            if 'MacBook Pro 15 Mid-2014' == appliance:
+                appliance = 'MacBook Pro 15\'\' Mid-2014'
             thresholds[i] = blond_meta[appliance]['threshold']
 
         self.means = means

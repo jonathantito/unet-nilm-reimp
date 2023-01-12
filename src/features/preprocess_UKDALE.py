@@ -6,7 +6,8 @@ import pandas as pd
 import yaml
 from tqdm import tqdm
 
-from src.__init__ import ROOT_DIR
+#from src.__init__ import ROOT_DIR
+ROOT_DIR = "/workspaces/torch-nilm/unet-nilm/unet-nilm-reimp/"
 
 START_TIME = '2015-01-01T00-00-00'
 END_TIME = '2015-04-01T00-00-00'

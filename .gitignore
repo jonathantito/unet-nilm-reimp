@@ -1,0 +1,6 @@
+data/BLOND/BLOND-50/**/*
+*.zip
+*.dat
+data/UKDALE/metadata/*.yaml
+*.npz
+*.pyc

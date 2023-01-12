@@ -1,0 +1,22 @@
+{
+"MacBook Pro 15'' Mid-2014": {
+"threshold": 4.0,
+"window_size": 50
+},
+"Epson EB-65950": {
+"threshold": 10.0,
+"window_size": 20
+},
+"Lenovo T420": {
+"threshold": 3.0,
+"window_size": 50
+},
+"Lenovo X230 i7": {
+"threshold": 2.0,
+"window_size": 60
+},
+"Dell U2711": {
+"threshold": 10.0,
+"window_size": 60
+}
+}

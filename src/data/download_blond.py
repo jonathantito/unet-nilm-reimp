@@ -3,7 +3,8 @@ from ftplib import FTP
 
 from tqdm import tqdm
 
-from src.__init__ import ROOT_DIR
+#from src.__init__ import ROOT_DIR
+ROOT_DIR = "/workspaces/torch-nilm/unet-nilm/unet-nilm-reimp/"
 
 
 def find(a_list, keyword):
